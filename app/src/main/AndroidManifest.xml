@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madhu.management">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_smart_department"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_smart_department"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".ForgotPassword" />
+        <activity
+            android:name=".DashBoard"
+            android:label="@string/title_activity_dash_board"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NoticeActivity"
+            android:label="@string/title_activity_notice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotesActivity"
+            android:label="@string/title_activity_notes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuestionPaperActivity"
+            android:label="@string/title_activity_question_paper"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdatesActivity"
+            android:label="@string/title_activity_updates"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".sampledata.PhyExtActivity" />
+        <activity android:name=".sampledata.ChemExtActivity" />
+        <activity android:name=".sampledata.ChemIntActivity" />
+        <activity android:name=".sampledata.PhyIntActivity" />
+        <activity android:name=".Notes.PhysicsNotesActivity" />
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".Notes.ChemistryNotesActivity" />
+        <activity android:name=".Notes.Computer_science.CseNotes_8_sem_Activity" />
+        <activity android:name=".Notice.NoticeAdminLoginActivity" />
+        <activity android:name=".Notice.CseNoticeAdminActivity" />
+        <activity android:name=".Notice.Cse_Notice_Activity" />
+        <activity android:name=".About.About_Bitm_Activity" />
+        <activity android:name=".About.AboutDeveloperActivity" />
+        <activity android:name=".Messages.ChatActivity" />
+
+        <service android:name=".FCMMessaging.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Results.CbcsResultsActivity" />
+        <activity android:name=".ResultsActivity" />
+        <activity android:name=".Results.NonCbcsResultsActivity" />
+        <activity android:name=".Results.RevalCbcsResultsActivity" />
+        <activity android:name=".Results.RevalNonCbcsResultsActivity" />
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

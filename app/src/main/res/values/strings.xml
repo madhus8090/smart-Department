@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Smart Department</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notice_fragment">Notice fragment</string>
+
+    <string name="notes_fragment">Notes fragment</string>
+
+    <string name="question_fragment">Question Paper fragment</string>
+
+    <string name="update_fragment">Updates  fragment</string>
+
+    <string name="Info_fragment">Info fragment</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+    <string name="Internal_Papers" color="@color/green">Internal Papers</string>
+    <string name="external_Papers" color="@color/green">External Papers</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_Upload">Upload</string>
+    <string name="title_activity_notice">NoticeActivity</string>
+    <string name="title_activity_notes">NotesActivity</string>
+    <string name="title_activity_question_paper">QuestionPaperActivity</string>
+    <string name="title_activity_updates">UpdatesActivity</string>
+
+
+    <string name="name_college">BALLARI INSTITUTE OF TECHNOLOGY AND MANAGEMENT</string>
+    <string name="vision">To train the students with in depth knowledge of cutting edge technologies
+        by incorporating the necessary programs to enhance creativity, social awareness and leadership
+        skills for the overall development.</string>
+    <string name="mission">To impart top quality professional education by mentoring the students to become
+    multi skilled professionals with rewarding career through team work,
+    innovative thinking, commitment and ethical responsibility.</string>
+
+    <string name="objectives">
+        1.To foster value based education to the students through mentoring, counseling, guiding and developing them to be recognized as good personalities.\n
+        2.To nurture students through various modes of learning.\n
+        3.To enhance the students‘ employability skills and social opportunities by improving their understanding and command over the English language and soft skills training.\n
+        4.To create an exposure in developing the competencies of the students in order to prepare them to face the challenges of the changing world.\n
+        5.To focus on full-fledged research center and to encourage industry-academia interactions.\n
+
+    </string>
+    <string name="default_notification_channel_id" />
+</resources>

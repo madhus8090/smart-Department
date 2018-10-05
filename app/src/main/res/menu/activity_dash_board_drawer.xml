@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_add_alert_black_24px"
+            android:title="Notice" />
+        <item
+            android:id="@+id/nav_question_papers"
+            android:icon="@drawable/ic_help_outline_black_24px"
+            android:title="Question papers" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_book_black_24px"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_update_black_24px"
+            android:title="Updates" />
+
+    </group>
+
+    <item android:title="About us">
+        <menu>
+            <item
+                android:id="@+id/nav_bitm"
+                android:icon="@drawable/ic_account_balance_black_24px"
+                android:title="About BITM" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_if_my_space"
+                android:title="Info" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24px"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>
